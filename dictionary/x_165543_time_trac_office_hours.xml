@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element audit="true" label="Office Hours" max_length="40" name="x_165543_time_trac_office_hours" type="collection">
+        <element default="javascript:gs.getUserID()" dynamic_default_value="2fd8e97bef3221002841f7f775c0fbc1" label="opened by" max_length="32" name="opened_by" reference="sys_user" type="reference" use_dynamic_default="true"/>
+        <element choice="3" label="States" max_length="100" name="states" read_only="true" type="string">
+            <choice>
+                <element label="Approved" sequence="10" value="Approved"/>
+                <element label="Rejected" sequence="20" value="Rejected"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Day of workweek" max_length="40" name="u_choice_2" type="string">
+            <choice>
+                <element label="Hétfő" sequence="0" value="Hétfő"/>
+                <element label="Kedd" sequence="1" value="Kedd"/>
+                <element label="Szerda" sequence="2" value="Szerda"/>
+                <element label="Csütörtök" sequence="3" value="Csütörtök"/>
+                <element label="Péntek" sequence="4" value="Péntek"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" choice="1" default="in Office" label="Location" max_length="40" name="u_choice_3" type="string">
+            <choice>
+                <element label="in Office" sequence="0" value="in Office"/>
+                <element label="bank holiday" sequence="1" value="bank holiday"/>
+                <element label="fizetett szabadság" sequence="2" value="fizetett szabadság"/>
+                <element label="other" sequence="3" value="other"/>
+                <element label="travel" sequence="4" value="travel"/>
+            </choice>
+        </element>
+        <element label="Duration Correction" max_length="15" name="u_decimal_6" type="decimal"/>
+        <element label="In" max_length="40" name="u_glide_date_time_4" type="glide_date_time"/>
+        <element label="Out" max_length="40" name="u_glide_date_time_5" type="glide_date_time"/>
+        <element label="User" max_length="32" name="u_reference_1" reference="sys_user" type="reference"/>
+        <element attributes="edge_encryption_enabled=true" default="DAY_201711" label="Number" max_length="40" name="u_string_1" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Short Description" max_length="200" name="u_string_7" type="string"/>
+        <element default="Wainting for Approval" label="x_gsz_Stages" max_length="200" name="x_gsz_stages" type="workflow"/>
+        <index name="index">
+            <element name="opened_by"/>
+        </index>
+        <index name="index2">
+            <element name="u_reference_1"/>
+        </index>
+    </element>
+</database>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element extends="sys_import_set_row" label="import" max_length="40" name="x_165543_time_trac_import" type="collection">
+        <element attributes="import_attribute_name=u_choice_2,edge_encryption_enabled=true" label="Choice 2" max_length="40" name="u_choice_2" type="string"/>
+        <element attributes="import_attribute_name=u_choice_3,edge_encryption_enabled=true" label="Choice 3" max_length="40" name="u_choice_3" type="string"/>
+        <element attributes="import_attribute_name=u_decimal_6" label="Decimal 6" max_length="15" name="u_decimal_6" type="decimal"/>
+        <element attributes="import_attribute_name=u_glide_date_time_4" label="Glide date time 4" max_length="40" name="u_glide_date_time_4" type="glide_date_time"/>
+        <element attributes="import_attribute_name=u_glide_date_time_5" label="Glide date time 5" max_length="40" name="u_glide_date_time_5" type="glide_date_time"/>
+        <element attributes="import_attribute_name=u_reference_1,edge_encryption_enabled=true" label="Reference 1" max_length="40" name="u_reference_1" type="string"/>
+        <element attributes="import_attribute_name=u_string_1,edge_encryption_enabled=true" label="String 1" max_length="40" name="u_string_1" type="string"/>
+        <element attributes="import_attribute_name=u_string_7,edge_encryption_enabled=true" label="String 7" max_length="65" name="u_string_7" type="string"/>
+    </element>
+</database>

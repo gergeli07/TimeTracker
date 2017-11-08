@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update sys_domain="global" table="sys_app_application">
+    <sys_app_application action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <category display_value="Ron TEST">179b24e1dbca0300249ef34ebf96197f</category>
+        <description/>
+        <device_type>browser</device_type>
+        <hint/>
+        <name>Office Hours</name>
+        <order>4</order>
+        <roles>x_165543_time_trac.office_hours_user</roles>
+        <sys_class_name>sys_app_application</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2017-10-13 07:49:03</sys_created_on>
+        <sys_customer_update>true</sys_customer_update>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>a965bd55db310300249ef34ebf9619e3</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>Time Tracking - Office Hours</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Time Tracker" source="x_165543_time_trac">6915f555db310300249ef34ebf961945</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Time Tracker">6915f555db310300249ef34ebf961945</sys_scope>
+        <sys_update_name>sys_app_application_a965bd55db310300249ef34ebf9619e3</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2017-10-26 08:27:07</sys_updated_on>
+        <title>Time Tracking - Office Hours</title>
+        <view_name/>
+    </sys_app_application>
+</record_update>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_documentation element="x_gsz_stages" label="x_gsz_Stages" language="en" table="x_165543_time_trac_office_hours">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>x_gsz_stages</element>
+            <help/>
+            <hint/>
+            <label>x_gsz_Stages</label>
+            <language>en</language>
+            <name>x_165543_time_trac_office_hours</name>
+            <plural>x_gsz_Stages</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2017-10-27 10:28:49</sys_created_on>
+            <sys_customer_update>false</sys_customer_update>
+            <sys_id>52306ab5dbc64300249ef34ebf961992</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_gsz_Stages</sys_name>
+            <sys_package display_value="Time Tracker" source="x_165543_time_trac">6915f555db310300249ef34ebf961945</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="Time Tracker">6915f555db310300249ef34ebf961945</sys_scope>
+            <sys_update_name>sys_documentation_x_165543_time_trac_office_hours_x_gsz_stages_en</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2017-10-27 10:28:49</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>
